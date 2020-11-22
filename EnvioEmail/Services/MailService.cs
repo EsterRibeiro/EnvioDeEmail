@@ -8,8 +8,8 @@ namespace EnvioEmail.Services
 {
     public class MailService
     {
-        private readonly string from = "email";
-        private readonly string password = "password";
+        private readonly string from = "fromemail";
+        private readonly string password = "frompassword";
 
         public void SendMessage(string to, string subject, string bodyText)
         {
